@@ -1,2 +1,2 @@
 # Terminal-Setup
-My own configs
+My own configs :3
