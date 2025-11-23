@@ -1,7 +1,8 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+
+set -g fish_greeting ""
 
 # Автоматичний запуск HyFetch
-if test -n "$ALACRITTY_WINDOW_ID"
+if test -n
     hyfetch
 end
 
@@ -22,14 +23,6 @@ function fish_prompt
     echo -n "> "
     set_color normal
 end
-
-# Аліаси для королеви 💅
-alias ls='ls --color=auto'
-alias ll='ls -lah'
-alias update='sudo pacman -Syu && yay -Syu'  # Оновлення системи
-alias fuck='sudo $(history -p !!)'  # Автофікс команд
-alias poweroff='systemctl poweroff'  # Вимкнення
-alias reboot='systemctl reboot'  # Перезавантаження
 
 # Фраза при запуску терміналу
 echo -e "\n💖 Welcome, glorious lesbian hacker queen! 💖"
