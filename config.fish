@@ -6,7 +6,7 @@ if test -n
     hyfetch
 end
 
-# ASCII-заставка (заміни "LESBIAN POWER" на що хочеш)
+# ASCII-заставка
 set_color magenta
 echo "💜💙💚💛🧡❤️  LESBIAN POWER  ❤️🧡💛💚💙💜"
 set_color normal
